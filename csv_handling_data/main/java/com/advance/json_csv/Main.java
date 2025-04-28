@@ -5,9 +5,9 @@ public class Main {
         JsonCsvConverter converter = new JsonCsvConverter();
         
         // File paths
-        String jsonFilePath = "C:\\Users\\DELL\\Desktop\\IOProgramming\\data_handling\\src\\main\\java\\com\\advance\\json_csv\\students.json";
-        String csvFilePath = "C:\\Users\\DELL\\Desktop\\IOProgramming\\data_handling\\src\\main\\java\\com\\advance\\json_csv\\students.csv";
-        String backToJsonFilePath = "C:\\Users\\DELL\\Desktop\\IOProgramming\\data_handling\\src\\main\\java\\com\\advance\\json_csv\\students_back.json";
+        String jsonFilePath = "students.json";
+        String csvFilePath = "students.csv";
+        String backToJsonFilePath = "students_back.json";
 
         // Convert JSON to CSV
         converter.jsonToCsv(jsonFilePath, csvFilePath);

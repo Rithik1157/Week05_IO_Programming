@@ -5,7 +5,7 @@ import com.opencsv.exceptions.CsvValidationException;
 public class Main {
 
     public static void main(String[] args) throws CsvValidationException {
-        String csvFilePath = "C:\\Users\\DELL\\Desktop\\IOProgramming\\data_handling\\src\\main\\java\\com\\advance\\encript_dcript\\employee_data.csv"; 
+        String csvFilePath = "employee_data.csv"; 
 
         CsvWriterWithEncryption writer = new CsvWriterWithEncryption();
         //CsvReaderWithDecryption reader = new CsvReaderWithDecryption();
